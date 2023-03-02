@@ -12,6 +12,5 @@ export default class Page {
      */
     open(path) {
         return browser.url(`${process.env.BASE_URL}/${path}`);
-        // return browser.url(`https://the-internet.herokuapp.com/${path}`);
     }
 }
