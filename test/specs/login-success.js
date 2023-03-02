@@ -11,9 +11,7 @@ describe("Evi File Login", () => {
             await LoginPage.login(process.env.EMAIL, process.env.PASSWORD);
             addStep("Login success", {}, "passed");
         } catch (e) {
-            console.log("should login successfully_e", e);
-            console.log("e.message", e.message, typeof e.message);
-            console.log("e.matcherResult", e.matcherResult);
+            console.log("should login successfully error", e);
             addStep("Login failed", {}, "failed");
         }
     });
