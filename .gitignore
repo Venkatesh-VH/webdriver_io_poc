@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+_results_
+allure-report
+allure-results
